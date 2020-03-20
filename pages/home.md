@@ -3,9 +3,9 @@ layout: layouts/home.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-Carousel: 
-  img1: /static/img/image002.jpg
-  img2: /static/img/image001.jpg
+Caroussel: 
+  slide1: /static/img/image002.jpg
+  slide2: /static/img/image001.jpg
 eleventyNavigation:
   key: Home
   order: 0
