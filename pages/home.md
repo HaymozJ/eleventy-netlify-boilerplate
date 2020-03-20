@@ -3,7 +3,8 @@ layout: layouts/home.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-Carousel: 
+headerImage: /static/img/image003.jpg
+Carousel:
   slide1: /static/img/image002.jpg
   slide2: /static/img/image001.jpg
 eleventyNavigation:
