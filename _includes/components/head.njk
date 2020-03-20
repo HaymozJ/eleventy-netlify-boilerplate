@@ -11,8 +11,7 @@
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
     {% include "assets/js/inline.js" %}
-    {% include "node_modules/jquery/dist/core.js" %}
-    {% include "node_modules/jquery/dist/jquery.js" %}
+    {% include "node_modules/jquery/dist/jquery.slim.js" %}
     {% include "node_modules/bootstrap/dist/js/bootstrap.js" %}
     {% include "node_modules/bootstrap/dist/js/bootstrap.bundle.js" %}
   {% endset %}

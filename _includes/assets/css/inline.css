@@ -56,6 +56,13 @@ body {
     top: 50%;
 }
 
+.headerImage .carousel-caption{
+    right: 50%;
+    top:50%;
+    bottom: unset;
+    left: unset;
+}
+
 main {
     max-width: 100%;
 }
