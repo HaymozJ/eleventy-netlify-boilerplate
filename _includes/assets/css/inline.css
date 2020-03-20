@@ -113,6 +113,9 @@ pre {
 }
 
 /* Header Logo (style as h2) */
+header{
+    margin-bottom: 75px;
+}
 header > em {
     display: block;
     font-size: 2em;
