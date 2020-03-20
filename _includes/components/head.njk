@@ -5,6 +5,8 @@
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/inline.css" %}
+    {% include "node_modules/bootstrap/dist/css/bootstrap-grid.css" %}
+    {% include "node_modules/bootstrap/dist/css/bootstrap.css"%}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}

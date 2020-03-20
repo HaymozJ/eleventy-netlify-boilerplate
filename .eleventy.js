@@ -89,6 +89,11 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, opts)
   );
 
+  const pluginSass = require("eleventy-plugin-sass");
+  module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(pluginSass, {watch:['node_modules/**']});
+  };
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 

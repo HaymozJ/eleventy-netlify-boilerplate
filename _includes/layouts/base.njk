@@ -1,23 +1,30 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
 
-	{% include "components/head.njk" %}
+{% include "components/head.njk" %}
 
-	<body>
+<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+<header>
+    {% include "components/nav.njk" %}
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+    <div class="headerImage" style='background-image: url({{ headerImage }} )'>
+       <h1> {{ title }}</h1>
+    </div>
+</header>
 
-		{% include "components/footer.njk" %}
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-1">
+                {{ layoutContent | safe }}
+            </div>
+        </div>
+    </div>
+</main>
 
-	</body>
+{% include "components/footer.njk" %}
+
+</body>
 
 </html>
