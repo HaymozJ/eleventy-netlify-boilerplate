@@ -31,8 +31,8 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "headerImage", name: "headerImage", widget: "image", required: "false" }
-      - label: "Caroussel"
-        name: "Caroussel"
+      - label: "Carousel"
+        name: "Carousel"
         widget: "object"
         fields:
           - {label: "slide1", name: "slide1", widget: "image", required: "false" }
