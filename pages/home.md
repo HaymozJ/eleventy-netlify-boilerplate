@@ -12,8 +12,6 @@ eleventyNavigation:
 ---
 # Welcome
 
-
-
 Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam 
 conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
 

@@ -49,9 +49,11 @@ body {
     height: 300px;
     max-height: 300px;
     display: flex;
+    background-size: 100% 300px;
 }
 .headerImage h1{
     position: absolute;
+    color: white;
     left: 50%;
     top: 50%;
 }
@@ -85,6 +87,7 @@ a[href]:not(:hover) {
 
 main {
     padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 main :first-child,
