@@ -12,14 +12,20 @@ eleventyNavigation:
   order: 0
 ---
 # Welcome
-
+<div class="row">
+<div class="col-md-8">
 Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam  conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
 
 Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et  minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse fateatur. Etenim eo 
 loco, Fanni et Scaevola, locati sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam 
 aliquantum de spatio curriculoque consuetudo maiorum.
+</div>
+<div class="col-md-4">
 
 ![](/static/img/logo.png)
+
+</div>
+</div>
 
 Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites  capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.
 
