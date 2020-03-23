@@ -32,10 +32,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "headerImage", name: "headerImage", widget: "image", required: false }
-      - {label: "Carousel"
-        name: "Carousel"
-        widget: "object"
-        fields:[
+      - {label: "Carousel", name: "Carousel", widget: "object", fields:[
           {label: "slide", name: "slide", widget: "image", required: false }]}
       - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
         name: "eleventyNavigation"
