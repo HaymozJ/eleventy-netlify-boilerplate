@@ -12,16 +12,16 @@ txtLeft: >-
   optimum factu elegit: et Vrsicinum primum ad se venire summo cum honore
   mandavit ea specie ut pro rerum tunc urgentium captu disponeretur concordi
   consilio, quibus virium incrementis Parthicarum gentium a arma minantium
-  impetus frangerentur.
-  <br>
+  impetus frangerentur. <br/>
+
 
   Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde
   etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu
   possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut
   Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod
   si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille
-  possit sustinere.
-  <br>
+  possit sustinere. <br/>
+
 
   Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas
   latasque leges fundamenta libertatis et retinacula sempiterna velut frugi
