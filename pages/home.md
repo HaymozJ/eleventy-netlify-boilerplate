@@ -22,7 +22,7 @@ aliquantum de spatio curriculoque consuetudo maiorum.
 </div>
 <div class="col-md-4">
 
-![](/static/img/logo.png)
+![](/static/img/logo.png =200x)
 
 </div>
 </div>
