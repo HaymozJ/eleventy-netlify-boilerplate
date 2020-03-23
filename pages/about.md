@@ -6,6 +6,28 @@ headerImage: /static/img/image001.jpg
 eleventyNavigation:
   key: About
   order: 1
+txtLeft: >-
+  Cum haec taliaque sollicitas eius aures everberarent expositas semper eius
+  modi rumoribus et patentes, varia animo tum miscente consilia, tandem id ut
+  optimum factu elegit: et Vrsicinum primum ad se venire summo cum honore
+  mandavit ea specie ut pro rerum tunc urgentium captu disponeretur concordi
+  consilio, quibus virium incrementis Parthicarum gentium a arma minantium
+  impetus frangerentur.
+
+
+  Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde
+  etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu
+  possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut
+  Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod
+  si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille
+  possit sustinere.
+
+
+  Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas
+  latasque leges fundamenta libertatis et retinacula sempiterna velut frugi
+  parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii
+  iura permisit.
+imgRight: /static/img/image003.jpg
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
