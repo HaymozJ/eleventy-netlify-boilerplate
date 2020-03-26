@@ -1,5 +1,4 @@
 ---
-templateEngineOverride: njk,md
 Carousel:
   - slide: /static/img/image002.jpg
   - slide: /static/img/image001.jpg
