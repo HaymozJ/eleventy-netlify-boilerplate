@@ -13,13 +13,11 @@ const Page = createClass({
       <main>
        <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
-            ${console.log(entry.getIn(['data','Carousel']))}
               ${entry.getIn(["data",'Carousel']).map((item, index) => {
-      return html`
- ${console.log(index)}
-                  <div class="carousel-item ${(index===0?"active":"")}">
-                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
-                  </div>
+                return html`
+                    <div class="carousel-item ${(index===0?"active":"")}">
+                        <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
+                    </div>
                 `;
     })}
               <div class="carousel-caption d-none d-md-block">
