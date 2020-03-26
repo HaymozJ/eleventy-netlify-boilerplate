@@ -27,7 +27,7 @@ const Page = createClass({
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-1">
+                <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-8">
                             ${this.props.widgetFor("txtLeft")}
