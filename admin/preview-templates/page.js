@@ -25,6 +25,20 @@ const Page = createClass({
               </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-1">
+                    <div class="row">
+                        <div class="col-md-8">
+                            ${this.props.widgetFor("txtLeft")}
+                        </div>
+                        <div class="col-md-4">
+                            <img src="${entry.getIn(["data", "imgRight"])}" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         ${this.props.widgetFor("body")}
       </main>
     `;
