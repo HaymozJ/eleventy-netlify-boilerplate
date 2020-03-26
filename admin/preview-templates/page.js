@@ -2,6 +2,7 @@
 import htm from "https://unpkg.com/htm?module";
 
 const html = htm.bind(h);
+const marked = require("marked")
 
 // Preview component for a Page
 const Page = createClass({
@@ -30,13 +31,13 @@ const Page = createClass({
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-8">
-                            ${entry.getIn(["data", "txtLeft"])}
+                            ${marked(entry.getIn(["data", "txtLeft"])).trim()}
                         </div>
                         <div class="col-md-4">
                             <img src="${entry.getIn(["data", "imgRight"])}" width="100%">
                         </div>
                     </div>
-                    ${entry.getIn(["data", "body"])}
+                    ${marked(entry.getIn(["data", "body"])).trim()}
                 </div>
             </div>
         </div>
