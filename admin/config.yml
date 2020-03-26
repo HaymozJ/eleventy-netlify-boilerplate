@@ -42,4 +42,7 @@ collections:
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Text Left", name: "txtLeft", widget: "markdown", required: false}
       - { label: "Image right", name: "imgRight", widget: "image", required: false}
+      - { label: "blurb", name: "blurb", widget: list, fields:[
+            {label: "image", name: "blurbImg", widget: "image", required: false}
+            {label: "texte", name: "blurbTxt", widget: "text", required: false}]}
       - { label: "Body", name: "body", widget: "markdown", required: false }

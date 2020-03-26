@@ -16,10 +16,10 @@
     {% elif Carousel %}
         <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
-                {% for slide in Carousel %}
-                <div class="carousel-item {% if loop.first %} active {% endif %}">
-                    <img class="d-block w-100" src="{{ slide }}" alt="Slide{{ loop.index }}" height="300px">
-                </div>
+                {% for item in Carousel %}
+                    <div class="carousel-item {% if loop.first %} active {% endif %}">
+                        <img class="d-block w-100" src="{{ item.slide }}" alt="Slide{{ loop.index }}" height="500px">
+                    </div>
                 {% endfor %}
                 <div class="carousel-caption d-none d-md-block">
                     <h1> {{ title }}</h1>
