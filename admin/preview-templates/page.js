@@ -36,10 +36,10 @@ const Page = createClass({
                             <img src="${entry.getIn(["data", "imgRight"])}" width="100%">
                         </div>
                     </div>
+                    ${this.props.widgetFor("body")}
                 </div>
             </div>
         </div>
-        ${this.props.widgetFor("body")}
       </main>
     `;
   }
