@@ -7,8 +7,8 @@ section: home
     <div class="row justify-content-center">
         {% for item in blurb %}
             <div class="col-md-4">
-                <img src="{{ item.blurbImg }}"/>
-                <p>{item.blurbTxt}</p>
+                <img src="{{ item.blurbImg }}" width="100%"/>
+                <p>{{ item.blurbTxt }}</p>
             </div>
         {% endfor %}
     </div>
