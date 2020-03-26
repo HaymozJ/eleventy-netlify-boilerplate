@@ -13,7 +13,7 @@ const Page = createClass({
        <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
             ${console.log(entry.getIn(['data','Carousel']))}
-              ${entry.getIn("data",'Carousel').map(function (item, index) {
+              ${entry.getIn(["data",'Carousel']).map((item, index) => {
       return html`
                   <div class="carousel-item active">
                       <img src="${item.getIn('data', 'slide')}" alt="" class="d-block w-100" height="500px" />
