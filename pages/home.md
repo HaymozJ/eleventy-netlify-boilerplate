@@ -1,16 +1,33 @@
 ---
+Carousel:
+  - slide: /static/img/image002.jpg
+  - slide: /static/img/image001.jpg
+  - slide: /static/img/image003.jpg
 layout: layouts/home.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 headerImage: ''
-Carousel:
-  - slide: /static/img/image002.jpg
-  - slide: /static/img/image001.jpg
-  - slide: /static/img/image003.jpg
 eleventyNavigation:
   key: Home
   order: 0
+blurb:
+  - blurbImg: /static/img/image001.jpg
+    blurbTxt: >-
+      Hac ita persuasione reducti intra moenia bellatores obseratis undique
+      portarum aditibus, propugnaculis insistebant et pinnis, congesta undique
+      saxa telaque habentes in promptu, ut si quis se proripuisset interius,
+      multitudine missilium sterneretur et lapidum.
+  - blurbImg: /static/img/image003.jpg
+    blurbTxt: >-
+      Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset
+      accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis
+      difficile dictu est; quid homines suspicentur, videtis; hoc vere tamen
+      licet dicere, P. Scipioni ex multis diebus, quos in vita celeberrimos
+      laetissimosque viderit, illum diem clarissimum fuisse, cum senatu dimisso
+      domum reductus ad vesperum est a patribus conscriptis, populo Romano,
+      sociis et Latinis, pridie quam excessit e vita, ut ex tam alto dignitatis
+      gradu ad superos videatur deos potius quam ad inferos pervenisse.
 ---
 # Welcome
 
