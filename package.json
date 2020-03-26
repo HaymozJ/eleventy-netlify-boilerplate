@@ -22,21 +22,26 @@
   },
   "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0-beta.1",
-    "luxon": "^1.21.3",
+    "@11ty/eleventy": "^0.11.0-beta.2",
+    "luxon": "^1.22.2",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.1.5",
+    "@popperjs/core": "^2.1.1",
+    "@types/react": "^16.9.25",
     "bootstrap": "^4.4.1",
-    "clean-css": "^4.2.1",
+    "clean-css": "^4.2.3",
+    "codemirror": "^5.52.2",
     "eleventy-plugin-sass": "^1.0.0",
     "html-minifier": "^4.0.0",
     "jquery": "^3.4.1",
     "netlify-cms-app": "^2.11.32",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.0.0-beta.17",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "redux": "^4.0.5",
     "requirejs": "^2.3.6",
     "uglify-es": "^3.3.9"
   }
