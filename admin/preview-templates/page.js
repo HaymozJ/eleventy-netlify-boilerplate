@@ -2,7 +2,7 @@
 import htm from "https://unpkg.com/htm?module";
 
 const html = htm.bind(h);
-const marked = require("marked")
+const marked = require("marked");
 
 // Preview component for a Page
 const Page = createClass({
