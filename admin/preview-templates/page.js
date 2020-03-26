@@ -17,7 +17,7 @@ const Page = createClass({
               ${entry.getIn(["data",'Carousel']).map((item, index) => {
       return html`
                   <div class="carousel-item active">
-                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
+                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100 ${index==0?"active":""}" height="500px" />
                   </div>
                 `;
     })}
