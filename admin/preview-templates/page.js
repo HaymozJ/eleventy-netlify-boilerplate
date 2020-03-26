@@ -12,7 +12,7 @@ const Page = createClass({
       <main>
        <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
-            ${console.log(this.props.widgetFor('Carousel'))}
+            ${console.log(entry.getIn('Carousel'))}
               ${entry.getIn("data",'Carousel').map(function (item, index) {
       return html`
                   <div class="carousel-item active">
