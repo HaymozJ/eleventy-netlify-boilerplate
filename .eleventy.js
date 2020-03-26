@@ -3,6 +3,7 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
+const marked = require("marked")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
@@ -35,6 +36,10 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  eleventyConfig.addFilter("md", value => {
+    return marked(value).trim();
+  });
+
   // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
     let minified = UglifyJS.minify(code);
@@ -44,6 +49,8 @@ module.exports = function(eleventyConfig) {
     }
     return minified.code;
   });
+
+
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {

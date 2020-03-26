@@ -38,9 +38,7 @@
                 {% if txtLeft and imgRight %}
                 <div class="row">
                     <div class="col-md-8">
-
-                        {{ txtLeft | raw }}
-
+                        {{ txtLeft | md | safe }}
                     </div>
                     <div class="col-md-4">
 
