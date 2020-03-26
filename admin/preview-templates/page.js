@@ -18,7 +18,7 @@ const Page = createClass({
       return html`
  ${console.log(index)}
                   <div class="carousel-item active">
-                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100 ${(index===0?"active":"")}" height="500px" />
+                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100 ${echo(index===0?"active":"nonactive")}" height="500px" />
                   </div>
                 `;
     })}
