@@ -11,6 +11,24 @@ headerImage: ''
 eleventyNavigation:
   key: Home
   order: 0
+txtLeft: >-
+  # Welcome
+
+
+  Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus
+  de futuris incertus agitare quaedam  conducentia saluti suae per itinera
+  conaretur, remoti sunt omnes de industria milites agentes in civitatibus
+  perviis.
+
+
+  Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec
+  faciamus rogati. Turpis enim excusatio est et  minime accipienda cum in
+  ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse
+  fateatur. Etenim eo  loco, Fanni et Scaevola, locati sumus ut nos longe
+  prospicere oporteat futuros casus rei publicae. Deflexit iam 
+
+  aliquantum de spatio curriculoque consuetudo maiorum.
+imgRight: /static/img/logo.svg
 blurb:
   - blurbImg: /static/img/image001.jpg
     blurbTxt: >-
@@ -19,23 +37,6 @@ blurb:
       saxa telaque habentes in promptu, ut si quis se proripuisset interius,
       multitudine missilium sterneretur et lapidum.
 ---
-# Welcome
-
-<div class="row">
-<div class="col-md-8">
-Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam  conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
-
-Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et  minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse fateatur. Etenim eo  loco, Fanni et Scaevola, locati sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam 
-aliquantum de spatio curriculoque consuetudo maiorum.
-
-</div>
-<div class="col-md-4">
-
-![](/static/img/logo.svg)
-
-</div>
-</div>
-
 Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites  capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.
 
 Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante  Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos,  quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri 
