@@ -6,7 +6,8 @@ const html = htm.bind(h);
 // Preview component for a Page
 const Page = createClass({
   render() {
-    const entry = this.props.entry;
+    //const entry = this.props.entry;
+    const {entry, getAsset} = this.props;
 
     return html`
       <main>
@@ -16,7 +17,7 @@ const Page = createClass({
               ${entry.getIn(["data",'Carousel']).map((item, index) => {
       return html`
                   <div class="carousel-item active">
-                      <img src="${item.getIn('data', 'slide')}" alt="" class="d-block w-100" height="500px" />
+                      <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
                   </div>
                 `;
     })}
