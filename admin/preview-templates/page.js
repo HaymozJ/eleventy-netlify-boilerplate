@@ -1,9 +1,10 @@
 import htm from "https://unpkg.com/htm?module";
+import React from "react";
 
 const html = htm.bind(h);
 
 // Preview component for a Page
-const Page = createClass({
+export default class Page extends React.Component{
     render() {
         const entry = this.props.entry;
 
@@ -23,6 +24,4 @@ const Page = createClass({
       </main>
     `;
     }
-});
-
-export default Page;
+}
