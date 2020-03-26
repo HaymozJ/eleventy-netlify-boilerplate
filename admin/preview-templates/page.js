@@ -9,25 +9,16 @@ const Page = createClass({
 
         return html`
       <main>
-        {% if headerImage and not Carousel %}
-            <div class="headerImage" style='background-image: url({{ headerImage }} )'>
-                <h1> {{ title }}</h1>
-            </div>
-        {% elif Carousel %}
-            <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
-                <div class="carousel-inner">
-                    {% for item in Carousel %}
-                        <div class="carousel-item {% if loop.first %} active {% endif %}">
-                            <img class="d-block w-100" src="{{ item.slide }}" alt="Slide{{ loop.index }}" height="500px">
-                        </div>
-                    {% endfor %}
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1> {{ title }}</h1>
-                    </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
+            <div class="carousel-inner">
+                {(entry.getIn(["data", "Carousel"]) || []).map((slide, i) => <div className="carousel-item active" key={i}>
+                    <img src={getAsset(slide.get("slide"))} alt="" className="d-block w-100" height="500px" />
+                </div>)}
+                <div class="carousel-caption d-none d-md-block">
+                    <h1> ${entry.getIn(["data", "title"], null)}</h1>
                 </div>
             </div>
-        {% endif %}
-        <h1>${entry.getIn(["data", "title"], null)}</h1>
+        </div>
         ${this.props.widgetFor("body")}
       </main>
     `;
