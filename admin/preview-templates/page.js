@@ -30,13 +30,13 @@ const Page = createClass({
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-8">
-                            ${this.props.widgetFor("txtLeft")}
+                            ${entry.getIn(["data", "txtLeft"])}
                         </div>
                         <div class="col-md-4">
                             <img src="${entry.getIn(["data", "imgRight"])}" width="100%">
                         </div>
                     </div>
-                    ${this.props.widgetFor("body")}
+                    ${entry.getIn(["data", "body"])}
                 </div>
             </div>
         </div>
