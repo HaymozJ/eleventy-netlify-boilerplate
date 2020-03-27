@@ -54,18 +54,10 @@ body {
     display: flex;
     background-size: 100% 500px;
 }
-.headerImage h1{
-    position: absolute;
-    color: white;
-    left: 50%;
-    top: 50%;
-}
 
 .headerImage .carousel-caption{
-    right: 50%;
-    top:50%;
-    bottom: unset;
-    left: unset;
+    position: absolute;
+    bottom: 100px;
 }
 
 main {

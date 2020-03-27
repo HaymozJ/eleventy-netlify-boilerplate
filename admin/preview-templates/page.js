@@ -20,7 +20,7 @@ const Page = createClass({
                     </div>
                 `;
               }):''}
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block justify-content-center">
                 <h1> ${entry.getIn(["data", "title"])}</h1>
               </div>
             </div>
