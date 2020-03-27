@@ -13,13 +13,13 @@ const Page = createClass({
       <main>
        <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
-              ${entry.getIn(["data",'Carousel']).map((item, index) => {
+              ${entry.getIn(["data",'Carousel'])!=null?entry.getIn(["data",'Carousel']).map((item, index) => {
                 return html`
                     <div class="carousel-item ${(index===0?"active":"")}">
                         <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
                     </div>
                 `;
-    })}
+    }):''}
               <div class="carousel-caption d-none d-md-block">
                 <h1> ${entry.getIn(["data", "title"])}</h1>
               </div>
@@ -37,14 +37,14 @@ const Page = createClass({
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        ${entry.getIn(["data",'blurbs']).map((item, index) => {
+                        ${entry.getIn(["data",'blurbs'])!=null?entry.getIn(["data",'blurbs']).map((item, index) => {
                             return html `
                                 <div class="col-md-4">
                                     <img src="${getAsset(item.get("blurbImg"))}" width="100%"/>
                                     <p>${item.get("blurbTxt")}</p>
                                 </div>
                             `;
-                        })}
+                        }):''}
                     </div>
                     ${this.props.widgetFor("body")}
                 </div>
