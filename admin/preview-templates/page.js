@@ -10,18 +10,19 @@ const Page = createClass({
     const {entry, getAsset} = this.props;
 
     return html`
+      <main>
         <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
-                ${entry.getIn(["data",'Carousel'])!=null?entry.getIn(["data",'Carousel']).map((item, index) => {
-                    return html`
-                        <div class="carousel-item ${(index===0?"active":"")}">
-                            <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
-                        </div>
-                    `;
-                }):''}
-                <div class="carousel-caption d-none d-md-block">
-                    <h1> ${entry.getIn(["data", "title"])}</h1>
-                </div>
+              ${entry.getIn(["data",'Carousel'])!=null?entry.getIn(["data",'Carousel']).map((item, index) => {
+                return html`
+                    <div class="carousel-item ${(index===0?"active":"")}">
+                        <img src="${getAsset(item.get("slide"))}" alt="" class="d-block w-100" height="500px" />
+                    </div>
+                `;
+              }):''}
+              <div class="carousel-caption d-none d-md-block">
+                <h1> ${entry.getIn(["data", "title"])}</h1>
+              </div>
             </div>
         </div>
         <div class="container">
@@ -49,6 +50,7 @@ const Page = createClass({
                 </div>
             </div>
         </div>
+      </main>
     `;
   }
 });
