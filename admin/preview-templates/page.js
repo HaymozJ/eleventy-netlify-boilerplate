@@ -38,12 +38,12 @@ const Page = createClass({
                     </div>
                     <div class="row justify-content-center">
                         ${entry.getIn(["data",'blurbs']).map((item, index) => {
-                            return html `
-                                <div class="col-md-4">
-                                    <img src="${getAsset(item.get("blurbImg"))}" width="100%"/>
-                                    <p>${getAsset(item.get("blurbTxt"))}</p>
-                                </div>
-                            `;
+                            // return html `
+                            //     <div class="col-md-4">
+                            //         <img src="${getAsset(item.get("blurbImg"))}" width="100%"/>
+                            //         <p>${getAsset(item.get("blurbTxt"))}</p>
+                            //     </div>
+                            // `;
                         })}
                     </div>
                     ${this.props.widgetFor("body")}
