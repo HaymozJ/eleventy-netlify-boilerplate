@@ -37,6 +37,27 @@ blurbs:
       provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est
       aliique congregati sunt ex diversis civitatibus multi, qui atrocium
       criminum ponderibus urgebantur.
+  - blurbImg: /static/img/image002.jpg
+    blurbTxt: >-
+      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
+      reque publica versantur; ubi enim istum invenias qui honorem amici
+      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+      plerisque videntur calamitatum societates! Ad quas non est facile inventu
+      qui descendant.
+  - blurbImg: /static/img/image003.jpg
+    blurbTxt: >-
+      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
+      reque publica versantur; ubi enim istum invenias qui honorem amici
+      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+      plerisque videntur calamitatum societates! Ad quas non est facile inventu
+      qui descendant.
+  - blurbImg: /static/img/image001.jpg
+    blurbTxt: >-
+      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
+      reque publica versantur; ubi enim istum invenias qui honorem amici
+      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+      plerisque videntur calamitatum societates! Ad quas non est facile inventu
+      qui descendant.
 blurb:
   - blurbImg: /static/img/image001.jpg
     blurbTxt: >-
