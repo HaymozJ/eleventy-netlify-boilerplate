@@ -52,7 +52,7 @@ body {
     height: 500px;
     max-height: 500px;
     display: flex;
-    background-size: 100% 300px;
+    background-size: 100% 500px;
 }
 .headerImage h1{
     position: absolute;
