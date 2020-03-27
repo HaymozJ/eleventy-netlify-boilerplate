@@ -10,7 +10,7 @@ const Page = createClass({
     const {entry, getAsset} = this.props;
 
     return html`
-      
+      <main>
         <div id="carouselExampleSlidesOnly" class="carousel slide headerImage" data-ride="carousel">
             <div class="carousel-inner">
               ${entry.getIn(["data",'Carousel'])!=null?entry.getIn(["data",'Carousel']).map((item, index) => {
@@ -50,6 +50,7 @@ const Page = createClass({
                 </div>
             </div>
         </div>
+      </main>
     `;
   }
 });
