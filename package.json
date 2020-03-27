@@ -39,8 +39,6 @@
     "jquery": "^3.4.1",
     "marked": "^0.8.2",
     "netlify-cms-app": "^2.11.32",
-    "nunjucks-markdown": "^2.0.1",
-    "nunjucks-markdown-filter": "^0.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
