@@ -29,6 +29,14 @@ txtLeft: >-
 
   aliquantum de spatio curriculoque consuetudo maiorum.
 imgRight: /static/img/logo.svg
+blurbs:
+  - blurbImg: /static/img/image001.jpg
+    blurbTxt: >-
+      Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum
+      occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector
+      provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est
+      aliique congregati sunt ex diversis civitatibus multi, qui atrocium
+      criminum ponderibus urgebantur.
 blurb:
   - blurbImg: /static/img/image001.jpg
     blurbTxt: >-
