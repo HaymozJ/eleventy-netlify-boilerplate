@@ -21,7 +21,7 @@ const Page = createClass({
                 `;
     })}
               <div class="carousel-caption d-none d-md-block">
-                <h1> ${entry.getIn(["data", "title"], null)}</h1>
+                <h1> ${entry.getIn(["data", "title"])}</h1>
               </div>
             </div>
         </div>
