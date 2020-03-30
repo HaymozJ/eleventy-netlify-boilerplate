@@ -2,7 +2,8 @@ import htm from "https://unpkg.com/htm?module";
 
 const html = htm.bind(h);
 
-import shodown from "https://unpkg.com/showdown/dist/showdown.min.js";
+import shodown from "https://unpkg.com/showdown@1.9.1/dist/showdown.min.js";
+const converter = new shodown.Converter();
 
 // Preview component for a Page
 const Page = createClass({
