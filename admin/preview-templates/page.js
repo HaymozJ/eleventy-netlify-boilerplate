@@ -1,5 +1,5 @@
-import marked from "marked";
 import htm from "https://unpkg.com/htm?module";
+import marked from "marked";
 
 const html = htm.bind(h);
 
@@ -51,7 +51,7 @@ const Page = createClass({
                             <div class="row">
                                 <div class="col-md-12">
                                     <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
-                                    <p>${marked(item.getIn(['txtOnly']))}</p>
+                                    <p>${item.getIn(['txtOnly'])}</p>
                                 </div>
                             </div>
                         `;    
