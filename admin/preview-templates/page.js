@@ -2,7 +2,7 @@ import htm from "https://unpkg.com/htm?module";
 
 const html = htm.bind(h);
 
-import marked_1 from "marked/lib/marked.esm";
+import shodown from "https://unpkg.com/showdown/dist/showdown.min.js";
 
 // Preview component for a Page
 const Page = createClass({
