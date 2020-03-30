@@ -53,7 +53,10 @@ collections:
             fields:
               -{ label: "Texte", name: "txtL", widget: "markdown", required: false}
               -{ label: "Image", name: "imgR", widget: "image", required: false},
-          - label: "Image et texte", name: "txtRImgL", widget: "object", fields:
-              -{ label: "Image", name: "imgL", widget: "image", required: false},
+          - label: "Image et texte"
+            name: "txtRImgL"
+            widget: "object"
+            fields:
+              -{ label: "Image", name: "imgL", widget: "image", required: false}
               -{ label: "Texte", name: "txtR", widget: "markdown", required: false}]}
       - { label: "Body", name: "body", widget: "markdown", required: false }
