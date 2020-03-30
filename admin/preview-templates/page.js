@@ -50,6 +50,7 @@ const Page = createClass({
                         return html `
                             <div class="row">
                                 <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
+                                <p>${this.props.widgetFor("txtOnly")}</p>
                             </div>
                         `;    
                     }):''}
