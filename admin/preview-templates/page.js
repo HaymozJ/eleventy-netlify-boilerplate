@@ -1,5 +1,5 @@
 import htm from "https://unpkg.com/htm?module";
-import showdown from "https://unpkg.com/showdown@1.9.1";
+import showdown from "https://unpkg.com/showdown@1.9.1/dist/showdown.min.js";
 
 const html = htm.bind(h);
 const converter = new showdown.Converter();
