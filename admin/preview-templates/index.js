@@ -1,4 +1,3 @@
-import marked from "marked";
 import Post from "/admin/preview-templates/post.js";
 import Page from "/admin/preview-templates/page.js";
 
