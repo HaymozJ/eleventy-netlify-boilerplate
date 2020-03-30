@@ -3,11 +3,13 @@ Carousel:
   - slide: /static/img/image002.jpg
   - slide: /static/img/image001.jpg
   - slide: /static/img/image003.jpg
+blocks:
+  - imgOnly: /static/img/image002.jpg
 layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
 permalink: /
 headerImage: ''
+title: Home
+date: 2016-01-01T00:00:00.000Z
 eleventyNavigation:
   key: Home
   order: 0
