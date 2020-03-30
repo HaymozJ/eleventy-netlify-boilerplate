@@ -44,13 +44,16 @@ collections:
       - { label: "blurbs", name: "blurbs", widget: list, fields:[
             {label: "image", name: "blurbImg", widget: "image", required: false},
             {label: "texte", name: "blurbTxt", widget: "text", required: false}]}
-      - { label: "bloques", name: "blocks", widget: list, fields:
-          -{ label: "Image seule", name: "imgOnly", widget: "image", required: false}
-          -{ label: "Text seul", name: "txtOnly", widget: "markdown", required: false}
+      - label: "bloques"
+        name: "blocks"
+        widget: list
+        fields:
+          - { label: "Image seule", name: "imgOnly", widget: "image", required: false}
+          - { label: "Text seul", name: "txtOnly", widget: "markdown", required: false}
           - label: "Texte et image"
             name: "txtLImgR"
             widget: "object"
             fields:
-              -{ label: "Texte", name: "txtL", widget: "markdown", required: false}
-              -{ label: "Image", name: "imgR", widget: "image", required: false}}
+              - { label: "Texte", name: "txtL", widget: "markdown", required: false}
+              - { label: "Image", name: "imgR", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown", required: false }
