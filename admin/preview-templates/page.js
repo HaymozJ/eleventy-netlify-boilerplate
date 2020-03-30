@@ -49,6 +49,7 @@ const Page = createClass({
                     ${entry.getIn(["data","blocks"])!=null?entry.getIn(["data","blocks"]).map((item, index) =>{
                         return html `
                             <div class="row">
+                                <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
                             </div>
                         `;    
                     }):''}
