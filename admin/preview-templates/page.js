@@ -1,6 +1,5 @@
 
 import htm from "https://unpkg.com/htm?module";
-const marked = require("marked");
 
 const html = htm.bind(h);
 
@@ -52,7 +51,7 @@ const Page = createClass({
                             <div class="row">
                                 <div class="col-md-12">
                                     <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
-                                    <p>${this.props.widgetFor("txtOnly")}</p>
+                                    <p>${this.props.widgetFor("item.txtOnly")}</p>
                                 </div>
                             </div>
                         `;    
