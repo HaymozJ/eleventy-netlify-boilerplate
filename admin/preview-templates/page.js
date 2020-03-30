@@ -1,6 +1,5 @@
 
 import htm from "https://unpkg.com/htm?module";
-import marked from "marked";
 
 const html = htm.bind(h);
 
