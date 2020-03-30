@@ -51,7 +51,7 @@ const Page = createClass({
                             <div class="row">
                                 ${entry.getIn(["data", "imgOnly"])? function () {
                                     return html`
-                                    <img src="${getAsset("imgOnly")} width="100%">
+                                    <img src="${getAsset(item.get("imgOnly"))} width="100%">
                                     `;
                                 }:''}
                             </div>
