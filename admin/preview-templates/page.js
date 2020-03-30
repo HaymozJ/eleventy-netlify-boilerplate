@@ -46,6 +46,17 @@ const Page = createClass({
                             `;
                         }):''}
                     </div>
+                    ${entry.getIn(["data","blocks"])!=null?entry.getIn(["data","blocks"]).map((item, index) =>{
+                        return html `
+                            <div class="row">
+                                ${entry.getIn(["data", "imgOnly"])? function () {
+                                    return html`
+                                    <img src="${getAsset("imgOnly")} width="100%">
+                                    `;
+                                }:''}
+                            </div>
+                        `;    
+                    }):''}
                     ${this.props.widgetFor("body")}
                 </div>
             </div>
