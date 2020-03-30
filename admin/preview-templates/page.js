@@ -51,7 +51,7 @@ const Page = createClass({
                             <div class="row">
                                 <div class="col-md-12">
                                     <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
-                                    <p>${this.props.widgetFor(entry.getIn("txtOnly"))}</p>
+                                    <p>${item.getIn(['widget','txtOnly'])}</p>
                                 </div>
                             </div>
                         `;    
