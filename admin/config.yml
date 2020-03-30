@@ -47,10 +47,13 @@ collections:
       - { label: "bloques", name: "blocks", widget: list, fields:[
           { label: "Image seule", name: "imgOnly", widget: "image", required: false},
           { label: "Text seul", name: "txtOnly", widget: "markdown", required: false},
-          - label: "Texte et image", name: "txtLImgR", widget: "object", fields:
-            -{ label: "Texte", name: "txtL", widget: "markdown", required: false}
-            -{ label: "Image", name: "imgR", widget: "image", required: false},
+          - label: "Texte et image"
+            name: "txtLImgR"
+            widget: "object"
+            fields:
+              -{ label: "Texte", name: "txtL", widget: "markdown", required: false}
+              -{ label: "Image", name: "imgR", widget: "image", required: false},
           - label: "Image et texte", name: "txtRImgL", widget: "object", fields:
-            -{ label: "Image", name: "imgL", widget: "image", required: false},
-            -{ label: "Texte", name: "txtR", widget: "markdown", required: false}]}
+              -{ label: "Image", name: "imgL", widget: "image", required: false},
+              -{ label: "Texte", name: "txtR", widget: "markdown", required: false}]}
       - { label: "Body", name: "body", widget: "markdown", required: false }
