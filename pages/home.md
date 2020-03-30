@@ -4,7 +4,21 @@ Carousel:
   - slide: /static/img/image001.jpg
   - slide: /static/img/image003.jpg
 blocks:
-  - imgOnly: /static/img/image002.jpg
+  - imgOnly: ''
+    txtOnly: >-
+      Et Epigonus quidem amictu tenus philosophus, ut apparuit, prece frustra
+      temptata, sulcatis lateribus mortisque metu admoto turpi confessione
+      cogitatorum socium, quae nulla erant, fuisse firmavit cum nec vidisset
+      quicquam nec audisset penitus expers forensium rerum; Eusebius vero
+      obiecta fidentius negans, suspensus in eodem gradu constantiae stetit
+      latrocinium illud esse, non iudicium clamans.
+
+
+      Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est
+      ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia
+      simul et feritas, et alioqui coalito more in ordinarias dignitates asperum
+      semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae
+      convectio sit impedita.
 layout: layouts/home.njk
 permalink: /
 headerImage: ''
