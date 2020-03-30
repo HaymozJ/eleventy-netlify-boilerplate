@@ -1,5 +1,6 @@
 
 import htm from "https://unpkg.com/htm?module";
+import marked_1 from "marked/lib/marked.esm";
 
 const html = htm.bind(h);
 
@@ -51,7 +52,7 @@ const Page = createClass({
                             <div class="row">
                                 <div class="col-md-12">
                                     <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
-                                    <p>${marked.marked(item.getIn(['txtOnly']))}</p>
+                                    <p>${marked_1(item.getIn(['txtOnly']))}</p>
                                 </div>
                             </div>
                         `;    
