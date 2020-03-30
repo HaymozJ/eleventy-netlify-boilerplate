@@ -44,6 +44,7 @@
     "react-dom": "^16.13.1",
     "redux": "^4.0.5",
     "requirejs": "^2.3.6",
+    "showdown": "^1.9.1",
     "uglify-es": "^3.3.9"
   }
 }
