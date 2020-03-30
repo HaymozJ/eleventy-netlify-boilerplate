@@ -30,7 +30,7 @@
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.1.5",
     "@popperjs/core": "^2.1.1",
-    "@types/react": "^16.9.25",
+    "@types/react": "^16.9.27",
     "bootstrap": "^4.4.1",
     "clean-css": "^4.2.3",
     "codemirror": "^5.52.2",
@@ -39,12 +39,13 @@
     "jquery": "^3.4.1",
     "marked": "^0.8.2",
     "netlify-cms-app": "^2.11.32",
+    "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
     "redux": "^4.0.5",
     "requirejs": "^2.3.6",
-    "showdown": "^1.9.1",
     "uglify-es": "^3.3.9"
   }
 }
