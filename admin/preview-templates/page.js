@@ -54,18 +54,6 @@ const Page = createClass({
                                <div class="col-md-12">
                                     <p>${item.getIn(['txtOnly'])}</p>
                                </div>
-                               <div class="col-md-8">
-                                    <p>${item.getIn(["txtLImgR", "txtL"])}</p>
-                               </div>
-                               <div class="col-md-4">
-                                    <img src="${getAsset(item.getIn(["txtLImgR", "imgR"]))}">
-                               </div>
-                               <div class="col-md-4">
-                                    <img src="${getAsset(item.getIn(["txtRImgL", "imgL"]))}">
-                               </div>
-                               <div class="col-md-8">
-                                    <p>${item.getIn(["txtRImgL", "txtR"])}</p>
-                               </div>
                             </div>
                         `;    
                     }):''}
