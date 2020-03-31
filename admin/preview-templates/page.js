@@ -48,10 +48,24 @@ const Page = createClass({
                     ${entry.getIn(["data","blocks"])!=null?entry.getIn(["data","blocks"]).map((item, index) =>{
                         return html `
                             <div class="row">
-                                ${getAsset(item.get("imgOnly"))!=null?console.log("ok"):console.log("ko")}
-                                <div class="col-md-12">
+                               <div class="col-md-12">
+                                    <img src="${getAsset(item.get('imgOnly'))}" width="100%">
+                               </div>
+                               <div class="col-md-12">
                                     <p>${item.getIn(['txtOnly'])}</p>
-                                </div>
+                               </div>
+                               <div class="col-md-8">
+                                    <p>${item.getIn(["txtLImgR", "txtL"])}</p>
+                               </div>
+                               <div class="col-md-4">
+                                    <img src="${getAsset(item.getIn(["txtLImgR", "imgR"]))}">
+                               </div>
+                               <div class="col-md-4">
+                                    <img src="${getAsset(item.getIn(["txtRImgL", "imgL"]))}">
+                               </div>
+                               <div class="col-md-8">
+                                    <p>${item.getIn(["txtRImgL", "txtR"])}</p>
+                               </div>
                             </div>
                         `;    
                     }):''}
