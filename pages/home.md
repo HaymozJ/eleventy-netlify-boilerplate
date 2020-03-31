@@ -19,6 +19,33 @@ blocks:
       simul et feritas, et alioqui coalito more in ordinarias dignitates asperum
       semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae
       convectio sit impedita.
+    txtLImgR:
+      txtL: >-
+        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+        ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
+        gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
+        occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
+        successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
+        indicat cognomentum.
+      imgR: /static/img/image001.jpg
+    txtRImgL:
+      imgL: /static/img/image002.jpg
+      txtR: >-
+        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+        ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
+        gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
+        occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
+        successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
+        indicat cognomentum.
+  - txtLImgR:
+      txtL: >-
+        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+        ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
+        gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
+        occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
+        successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
+        indicat cognomentum.
+      imgR: /static/img/image003.jpg
 layout: layouts/home.njk
 permalink: /
 headerImage: ''
