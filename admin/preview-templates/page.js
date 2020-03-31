@@ -48,7 +48,7 @@ const Page = createClass({
                     ${entry.getIn(["data","blocks"])!=null?entry.getIn(["data","blocks"]).map((item, index) =>{
                         return html `
                             <div class="row">
-                                ${item.get("imgOnly")!=null?console.log("ok"):console.log("ko")}
+                                ${getAsset(item.get("imgOnly"))!=null?console.log("ok"):console.log("ko")}
                                 <div class="col-md-12">
                                     <p>${item.getIn(['txtOnly'])}</p>
                                 </div>
