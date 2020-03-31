@@ -49,7 +49,7 @@ const Page = createClass({
                         return html `
                             <div class="row">
                                <div class="col-md-12">
-                                    <img src="${getAsset(item.get('imgOnly'))}" width="100%">
+                                    <img src="${getAsset(item.get('imgOnly'))}" width="100%"/>
                                </div>
                                <div class="col-md-12">
                                     <p>${item.getIn(['txtOnly'])}</p>
