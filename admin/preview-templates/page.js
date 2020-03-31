@@ -54,7 +54,7 @@ const Page = createClass({
                                                  <img src="${getAsset(item.get("imgOnly"))}" width="100%"/>
                                             </div>
                                         `;
-                                }):''}
+                                }):console.log("test")}
                                 <div class="col-md-12">
                                     <p>${item.getIn(['txtOnly'])}</p>
                                 </div>
