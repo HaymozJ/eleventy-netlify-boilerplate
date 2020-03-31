@@ -2,16 +2,4 @@
 layout: layouts/base.njk
 section: home
 ---
-
-{% if blurb %}
-    <div class="row justify-content-center">
-        {% for blurb in blurbs %}
-            <div class="col-md-4">
-                <img src="{{ blurb.blurbImg }}" width="100%"/>
-                <p>{{ blurb.blurbTxt }}</p>
-            </div>
-        {% endfor %}
-    </div>
-{% endif %}
-
 {{ layoutContent | safe }}
