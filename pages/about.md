@@ -29,6 +29,14 @@ blocks:
       imgR: /static/img/image002.jpg
     txtRImgL:
       imgL: /static/img/image002.jpg
+      txtR: >-
+        Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus
+        haerebis et repentinus, hortatore illo hesterno clientes numerando, qui
+        sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in
+        amicitiam si te salutandi adsiduitati dederis triennio indiscretus et
+        per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi
+        esses interrogatus et quo tandem miser discesseris, aetatem omnem
+        frustra in stipite conteres summittendo.
 headerImage: ''
 title: About us
 date: 2017-01-01T00:00:00.000Z
