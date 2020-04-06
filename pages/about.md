@@ -1,10 +1,12 @@
 ---
-title: About us
-date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
-headerImage: ''
 Carousel:
   - slide: /static/img/image001.jpg
+blocks:
+  - imgOnly: /static/img/image001.jpg
+headerImage: ''
+title: About us
+date: 2017-01-01T00:00:00.000Z
 eleventyNavigation:
   key: About
   order: 1
