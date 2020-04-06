@@ -18,6 +18,17 @@ blocks:
       enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius
       interponeretur, atque ut tamquam a praesentibus coram haberi sermo
       videretur.
+    txtLImgR:
+      txtL: >-
+        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+        ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
+        gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
+        occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
+        successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
+        indicat cognomentum.
+      imgR: /static/img/image002.jpg
+    txtRImgL:
+      imgL: /static/img/image002.jpg
 headerImage: ''
 title: About us
 date: 2017-01-01T00:00:00.000Z
