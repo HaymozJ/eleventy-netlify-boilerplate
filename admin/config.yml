@@ -33,4 +33,33 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Carousel", name: "Carousel", widget: list, fields: [
           {label: "slide", name: "slide", widget: "image", required: false }]}
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
+      - { label: "Text Left", name: "txtLeft", widget: "markdown", required: false}
+      - { label: "Image right", name: "imgRight", widget: "image", required: false}
+      - { label: "blurbs", name: "blurbs", widget: list, fields: [
+            {label: "image", name: "blurbImg", widget: "image", required: false},
+            {label: "texte", name: "blurbTxt", widget: "text", required: false}]}
+      - label: "bloques"
+        name: "blocks"
+        widget: list
+        fields:
+          - { label: "Image seule", name: "imgOnly", widget: "image", required: false}
+          - { label: "Text seul", name: "txtOnly", widget: "markdown", required: false}
+          - label: "Texte et image"
+            name: "txtLImgR"
+            widget: "object"
+            fields:
+              - { label: "Texte", name: "txtL", widget: "markdown", required: false}
+              - { label: "Image", name: "imgR", widget: "image", required: false}
+          - label: "Image et Texte"
+            name: "txtRImgL"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "imgL", widget: "image", required: false}
+              - { label: "Texte", name: "txtR", widget: "markdown", required: false}
       - { label: "Body", name: "body", widget: "markdown", required: false }
