@@ -2,11 +2,15 @@
 Carousel:
   - slide: /static/img/image002.jpg
 section: contact
+blocks:
+  - imgOnly: /static/img/image001.jpg
+    txtRImgL:
+      imgL: /static/img/image002.jpg
 layout: layouts/contact.njk
+permalink: /contact/index.html
+headerImage: ""
 title: Get in touch
 date: 2018-01-01T00:00:00.000Z
-permalink: /contact/index.html
-headerImage: ''
 eleventyNavigation:
   key: Contact
   order: 3
