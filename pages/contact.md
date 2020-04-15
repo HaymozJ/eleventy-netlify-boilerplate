@@ -6,6 +6,10 @@ blocks:
   - imgOnly: /static/img/image001.jpg
     txtRImgL:
       imgL: /static/img/image002.jpg
+      txtR: Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim
+        beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic
+        amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso
+        amore inest, expetendam putamus.
 layout: layouts/contact.njk
 permalink: /contact/index.html
 headerImage: ""
