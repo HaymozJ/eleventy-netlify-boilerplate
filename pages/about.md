@@ -2,6 +2,7 @@
 permalink: /about/index.html
 Carousel:
   - slide: /static/img/image001.jpg
+  - slide: /static/img/image002.jpg
 blocks:
   - imgOnly: /static/img/image001.jpg
     txtOnly: >-
@@ -11,16 +12,9 @@ blocks:
       vocibus crebris. qui haut longe postea ideo vivus exustus est.
 
 
-      Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis
-      sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C.
-      Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis
-      sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi
-      enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius
-      interponeretur, atque ut tamquam a praesentibus coram haberi sermo
-      videretur.
+      Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
     txtLImgR:
-      txtL: >-
-        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+      txtL: Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
         ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
         gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
         occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
@@ -29,15 +23,14 @@ blocks:
       imgR: /static/img/image002.jpg
     txtRImgL:
       imgL: /static/img/image002.jpg
-      txtR: >-
-        Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus
+      txtR: Hacque adfabilitate confisus cum eadem postridie feceris, ut incognitus
         haerebis et repentinus, hortatore illo hesterno clientes numerando, qui
         sis vel unde venias diutius ambigente agnitus vero tandem et adscitus in
         amicitiam si te salutandi adsiduitati dederis triennio indiscretus et
         per tot dierum defueris tempus, reverteris ad paria perferenda, nec ubi
         esses interrogatus et quo tandem miser discesseris, aetatem omnem
         frustra in stipite conteres summittendo.
-headerImage: ''
+headerImage: ""
 title: About us
 date: 2017-01-01T00:00:00.000Z
 eleventyNavigation:
@@ -52,18 +45,10 @@ txtLeft: >-
   impetus frangerentur. <br/>
 
 
-  Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde
-  etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu
-  possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut
-  Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod
-  si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille
-  possit sustinere. <br/>
+  Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. <br/>
 
 
-  Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas
-  latasque leges fundamenta libertatis et retinacula sempiterna velut frugi
-  parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii
-  iura permisit.
+  Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latasque leges fundamenta libertatis et retinacula sempiterna velut frugi parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii iura permisit.
 imgRight: /static/img/image003.jpg
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
