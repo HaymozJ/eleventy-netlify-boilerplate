@@ -4,7 +4,7 @@ Carousel:
   - slide: /static/img/image001.jpg
   - slide: /static/img/image003.jpg
 blocks:
-  - imgOnly: ""
+  - imgOnly: /static/img/image001.jpg
     txtOnly: >-
       Et Epigonus **quidem** amictu tenus philosophus, ut **apparuit, prece
       frustra temptata,** sulcatis lateribus mortisque metu admoto turpi
