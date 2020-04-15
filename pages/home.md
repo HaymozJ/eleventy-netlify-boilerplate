@@ -4,7 +4,7 @@ Carousel:
   - slide: /static/img/image001.jpg
   - slide: /static/img/image003.jpg
 blocks:
-  - imgOnly: ''
+  - imgOnly: ""
     txtOnly: >-
       Et Epigonus **quidem** amictu tenus philosophus, ut **apparuit, prece
       frustra temptata,** sulcatis lateribus mortisque metu admoto turpi
@@ -14,14 +14,9 @@ blocks:
       latrocinium illud esse, non iudicium clamans.
 
 
-      Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est
-      ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia
-      simul et feritas, et alioqui coalito more in ordinarias dignitates asperum
-      semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae
-      convectio sit impedita.
+      Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret atque monstraret, quam ob causam annonae convectio sit impedita.
     txtLImgR:
-      txtL: >-
-        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+      txtL: Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
         ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
         gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
         occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
@@ -30,16 +25,14 @@ blocks:
       imgR: /static/img/image001.jpg
     txtRImgL:
       imgL: /static/img/image002.jpg
-      txtR: >-
-        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+      txtR: Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
         ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
         gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
         occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
         successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
         indicat cognomentum.
   - txtLImgR:
-      txtL: >-
-        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
+      txtL: Orientis vero limes in longum protentus et rectum ab Euphratis fluminis
         ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans
         gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus
         occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum
@@ -48,7 +41,7 @@ blocks:
       imgR: /static/img/image003.jpg
 layout: layouts/home.njk
 permalink: /
-headerImage: ''
+headerImage: ""
 title: Home
 date: 2016-01-01T00:00:00.000Z
 eleventyNavigation:
@@ -58,53 +51,35 @@ txtLeft: >-
   # Welcome
 
 
-  Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus
-  de futuris incertus agitare quaedam  conducentia saluti suae per itinera
-  conaretur, remoti sunt omnes de industria milites agentes in civitatibus
-  perviis.
+  Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam  conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
 
 
-  Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec
-  faciamus rogati. Turpis enim excusatio est et  minime accipienda cum in
-  ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse
-  fateatur. Etenim eo  loco, Fanni et Scaevola, locati sumus ut nos longe
-  prospicere oporteat futuros casus rei publicae. Deflexit iam 
+  Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et  minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse fateatur. Etenim eo  loco, Fanni et Scaevola, locati sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam 
 
   aliquantum de spatio curriculoque consuetudo maiorum.
 imgRight: /static/img/logo.svg
 blurbs:
   - blurbImg: /static/img/image001.jpg
-    blurbTxt: >-
-      Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum
-      occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector
-      provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est
-      aliique congregati sunt ex diversis civitatibus multi, qui atrocium
-      criminum ponderibus urgebantur.
+    blurbTxt: Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale
+      textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque
+      rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius
+      ductus est aliique congregati sunt ex diversis civitatibus multi, qui
+      atrocium criminum ponderibus urgebantur.
   - blurbImg: /static/img/image002.jpg
-    blurbTxt: >-
-      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
-      reque publica versantur; ubi enim istum invenias qui honorem amici
-      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+    blurbTxt: Itaque verae amicitiae difficillime reperiuntur in iis qui in
+      honoribus reque publica versantur; ubi enim istum invenias qui honorem
+      amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
       plerisque videntur calamitatum societates! Ad quas non est facile inventu
       qui descendant.
   - blurbImg: /static/img/image003.jpg
-    blurbTxt: >-
-      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
-      reque publica versantur; ubi enim istum invenias qui honorem amici
-      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
-      plerisque videntur calamitatum societates! Ad quas non est facile inventu
-      qui descendant.
-  - blurbImg: /static/img/image001.jpg
-    blurbTxt: >-
-      Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus
-      reque publica versantur; ubi enim istum invenias qui honorem amici
-      anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+    blurbTxt: Itaque verae amicitiae difficillime reperiuntur in iis qui in
+      honoribus reque publica versantur; ubi enim istum invenias qui honorem
+      amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
       plerisque videntur calamitatum societates! Ad quas non est facile inventu
       qui descendant.
 blurb:
   - blurbImg: /static/img/image001.jpg
-    blurbTxt: >-
-      Hac ita persuasione reducti intra moenia bellatores obseratis undique
+    blurbTxt: Hac ita persuasione reducti intra moenia bellatores obseratis undique
       portarum aditibus, propugnaculis insistebant et pinnis, congesta undique
       saxa telaque habentes in promptu, ut si quis se proripuisset interius,
       multitudine missilium sterneretur et lapidum.
