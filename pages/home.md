@@ -39,6 +39,7 @@ blocks:
         successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut
         indicat cognomentum.
       imgR: /static/img/image003.jpg
+  - {}
 layout: layouts/home.njk
 permalink: /
 headerImage: ""
@@ -59,6 +60,12 @@ txtLeft: >-
   aliquantum de spatio curriculoque consuetudo maiorum.
 imgRight: /static/img/logo.svg
 blurbs:
+  - blurbImg: /static/img/image002.jpg
+    blurbTxt: Itaque verae amicitiae difficillime reperiuntur in iis qui in
+      honoribus reque publica versantur; ubi enim istum invenias qui honorem
+      amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
+      plerisque videntur calamitatum societates! Ad quas non est facile inventu
+      qui descendant.
   - blurbImg: /static/img/image001.jpg
     blurbTxt: Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale
       textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque
@@ -66,17 +73,12 @@ blurbs:
       ductus est aliique congregati sunt ex diversis civitatibus multi, qui
       atrocium criminum ponderibus urgebantur.
   - blurbImg: /static/img/image002.jpg
-    blurbTxt: Itaque verae amicitiae difficillime reperiuntur in iis qui in
-      honoribus reque publica versantur; ubi enim istum invenias qui honorem
-      amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
-      plerisque videntur calamitatum societates! Ad quas non est facile inventu
-      qui descendant.
-  - blurbImg: /static/img/image003.jpg
-    blurbTxt: Itaque verae amicitiae difficillime reperiuntur in iis qui in
-      honoribus reque publica versantur; ubi enim istum invenias qui honorem
-      amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles
-      plerisque videntur calamitatum societates! Ad quas non est facile inventu
-      qui descendant.
+    blurbTxt: Orientis vero limes in longum protentus et rectum ab Euphratis
+      fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis
+      conterminans gentibus, dextra pelagi fragoribus patens, quam plagam
+      Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri
+      Macedonis obitum successorio iure teneret regna Persidis, efficaciae
+      inpetrabilis rex, ut indicat cognomentum.
 blurb:
   - blurbImg: /static/img/image001.jpg
     blurbTxt: Hac ita persuasione reducti intra moenia bellatores obseratis undique
